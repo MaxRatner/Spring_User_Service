@@ -21,6 +21,6 @@ http://localhost:8080/browser/index.html#http://localhost:8080/profiles/
 GET /profiles/id - получить данные пользователя по id    
 GET /profiles - получить список всех пользователей c данными    
 GET /profiles/search/findByEmail?email="" - найти запись пользователя по email
-(NON GET) POST /profiles - добавить нового пользователя
+(NON GET) POST /profiles - добавить нового пользователя     
 (NON GET) PUT /profiles/id - обновить данные пользователя    
 (NON GET) DELETE /profiles/id - удалить запись данных о пользователе
